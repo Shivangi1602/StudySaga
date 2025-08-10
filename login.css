@@ -1,0 +1,28 @@
+.log{
+    text-align: center;
+    margin: 8vh 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 2em;
+    border: 5px double gray;
+    background-color: rgb(232, 255, 253);
+    border-radius: 5px;
+}
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+th,td{
+    padding: 1em;
+}
+.ln{
+    padding: 0.2em 1em;
+    color: white;
+    background-color: rgb(8, 82, 74);
+    border-radius: 5px;
+}
+.ln:hover{
+    box-shadow: 2px 2px 4px black;
+}

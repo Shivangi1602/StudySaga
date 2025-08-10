@@ -1,0 +1,74 @@
+.courses h1:hover{
+    color: rgb(255, 102, 0);
+    transition: 1.5s;
+}
+.courses{
+    padding-top: 2vh;
+}
+.si{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2vh 11vw 0vh 10vw;
+}
+.bcou{
+    background-color: rgb(3, 141, 127);
+    color: white;
+}
+.bcour1{
+    background-color: rgb(194, 194, 194);
+    color: black;
+}
+.b1,.b2,.b3,.b4,.b5,.b6{
+    border: none;
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 1vh 1.5vw;
+    border-radius: 3px;
+    position: relative;
+}
+.bcour1:hover{
+    background-color: rgb(133, 199, 192);
+    color: black;
+}
+
+.iii{
+    overflow: hidden;
+    transition: 1s;
+    width: 100px;
+}
+.iii:hover{
+    transform: scale(1.1,1.1);
+}
+
+.st1,.st2,.st3,.st4,.st5,.st6{
+    padding: 6vh 7vw;
+}
+.st2,.st3,.st4,.st5,.st6{
+    display: none;
+}
+.dshift{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+.cimg {
+    height: 25vh;
+    /* width: 15vw; */
+}
+
+.ccard {
+    box-shadow: rgba(111, 106, 100, 0.466) 0px 7px 11px 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.ccard:hover {
+    background-color: rgb(4, 63, 63);
+    color: orange;
+}
+.ccard:hover .lgreen{
+    color: rgb(64, 255, 64);
+}
+

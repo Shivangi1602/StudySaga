@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudySaga | Services(Books)</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="services.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="./css/owl.carousel (1).css">
+  <link rel="stylesheet" href="./css/owl.theme.green (1).css">
+  <script src="./js/jquery.min (1).js"></script>
+  <script src="./js/owl.carousel.min (1).js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <img src="imgs/eduba5.jpg" alt="" height="200%" width="100%"
+    style="position: absolute; z-index: -100; filter: opacity(15%);">
+
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top " style="padding: 2vh 0; font-size: 1.4em;">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#" style="margin: 0 5vw; font-size: x-large;" target="_blank"> -->
+      <img src="imgs/shivangi 3.png" height="350px" width="219px" alt=""
+        style="position: absolute; top: -135px; left: 25px;" class="logoh">
+      <!-- STUDYSAGA -->
+      <!-- </a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" target="_blank">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html" target="_blank">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Category
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(89, 201, 190);">
+              <li><a class="dropdown-item" href="courses.html" target="_blank">Courses</a></li>
+              <li><a class="dropdown-item" href="services.html" target="_blank">Books</a></li>
+              <!-- <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="courses.html" target="_blank">Courses</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="services.html" target="_blank" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(89, 201, 190);">
+              <li><a class="dropdown-item" href="services.html" target="_blank">Books</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+          <a href="signup.html" class="nav-link active aa" target="_blank">
+            <button class="btn btn-outline-light sin" style="position: relative;">Sign up
+            </button>
+            <div class="sig"
+              style=" position: absolute; background-color: rgb(8, 114, 103); color: white; font-size: 0.7em; padding: 0.3em 1em; border-radius: 5px; display: none;">
+              Click to sign in</div>
+            <div class="nin"
+              style="width: 13px; height: 13px; background-color: rgb(8,114,103); position: absolute; transform: rotate(45deg); display: none;">
+            </div>
+
+            <!-- <input type="submit" value="Sign Up"> -->
+          </a>
+          <a href="login.html" class="nav-link active ai" target="_blank">
+            <button class="btn btn-outline-light aw" style="position: relative;">Log in</button>
+            <div class="tlt"></div>
+            <div class="dh" id="dh">
+              <form action="" style="text-align: center;">
+                <label for="e" style="color: white;">Email :</label>
+                <input type="email" placeholder="enter you email id" id="e"
+                  style="border-radius: 7px; border: 1px solid black; background-color: rgb(138, 255, 218); padding: 5px;"
+                  required>
+                <br>
+                <input type="submit" value="Log in"
+                  style="padding: 5px; background-color: rgb(138, 255, 218); border-radius: 7px; margin: 5px;">
+              </form>
+            </div>
+          </a>
+
+          <!-- <button class="btn btn-outline-dark" type="submit">Log out</button> -->
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- navbar end -->
+
+  <h1 class="hi1">Our <span style="color: rgb(0, 133, 119);">Services</span></h1>
+  <p class="pli">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nesciunt perferendis omnis. Expedita illum
+    tempore adipisci voluptatum dolore error magni voluptate quibusdam, modi aperiam architecto sequi nulla, laborum
+    aliquid. Sequi sunt cum quidem, ducimus omnis debitis nesciunt hic expedita velit eum autem voluptate nam officiis
+    at? Autem ad, rem a voluptatum dolore consequatur incidunt! Tempora corrupti, incidunt ab facere neque aliquam,
+    veniam autem, adipisci unde dicta ipsa aspernatur iure hic ex est beatae eligendi esse laborum. Laudantium, quasi
+    repellat! Eum consequatur dignissimos labore quas distinctio tempore accusamus cupiditate expedita porro dolo quod
+    commodi eos ex minus, pariatur aliquid! Vel, architecto.</p>
+  <h1 class="hi1"><span style="color: rgb(0, 133, 119);">Books</span> We Sell</h1>
+  <section class="s">
+    <!-- category start -->
+    <section class="s1">
+      <h1 style="padding: 25px;">Categories :</h1>
+      <!-- <hr> -->
+      <!-- <a href=""> -->
+      <div class="rit it" id="di0">
+        <p>All Books</p>
+      </div>
+      <!-- </a> -->
+      <hr>
+      <!-- <a href=""> -->
+      <div class="rit it" id="di1">
+        <p>Information Technology</p>
+      </div>
+      <!-- </a> -->
+      <hr>
+      <!-- <a href=""> -->
+      <div class="rit it" id="di2">
+        <p>Philosophy</p>
+      </div>
+      <!-- </a> -->
+      <hr>
+      <!-- <a href=""> -->
+      <div class="rit it" id="di3">
+        <p>Science</p>
+      </div>
+      <!-- </a> -->
+      <hr>
+      <!-- <a href=""> -->
+      <div class="rit it" id="di4">
+        <p>Maths</p>
+      </div>
+      <!-- </a> -->
+      <hr>
+      <!-- <a href=""> -->
+      <div class="rit it" id="di5">
+        <p>Commerce</p>
+      </div>
+      <!-- </a> -->
+      <hr>
+    </section>
+    <!-- category end -->
+
+    <!-- items start -->
+    <section class="s2">
+      <div class="ib1 ib" id="ib1">
+        <a href="redirect1.html" target="_blank">
+          <img src="imgs/py.png" alt="">
+        </a>
+        <a href="redirect1.html" target="_blank">
+          <div class="daas1">
+            <h5>Core Python Programming Book</h5>
+          </div>
+        </a>
+      </div>
+
+      <div class="ib2 ib" id="ib2">
+        <a href="redirect2.html" target="_blank">
+          <img src="imgs/ph1.png" alt="">
+        </a>
+        <a href="redirect2.html" target="_blank">
+          <div class="daas1">
+            <h5>Caste Pride Book</h5>
+          </div>
+        </a>
+      </div>
+
+      <div class="ib3 ib" id="ib3">
+        <a href="redirect3.html" target="_blank">
+          <img src="imgs/sci1.jpg" alt="">
+        </a>
+        <a href="redirect3.html" target="_blank">
+          <div class="daas1">
+            <h5>Future S&T Book</h5>
+          </div>
+        </a>
+      </div>
+
+      <div class="ib4 ib" id="ib4">
+        <a href="redirect4.html" target="_blank">
+          <img src="imgs/maths1.jpg" alt="">
+        </a>
+        <a href="redirect4.html" target="_blank">
+          <div class="daas1">
+            <h5>Mathematics (Arihant) Book</h5>
+          </div>
+        </a>
+      </div>
+
+      <div class="ib5 ib" id="ib5">
+        <a href="redirect5.html" target="_blank">
+          <img src="imgs/comm1.jpg" alt="">
+        </a>
+        <a href="redirect5.html" target="_blank">
+          <div class="daas1">
+            <h5>UGC-NET Commerce PYQs Book</h5>
+          </div>
+        </a>
+      </div>
+      <div class="ib6 ib" id="ib6">
+        <a href="redirect6.html" target="_blank">
+          <img src="imgs/sci2.jpg" alt="">
+        </a>
+        <a href="redirect6.html" target="_blank">
+          <div class="daas1">
+            <h5>Science QnA Book</h5>
+          </div>
+        </a>
+      </div>
+      <div class="ib7 ib" id="ib7">
+        <a href="redirect7.html" target="_blank">
+          <img src="imgs/c book.jpg" alt="">
+        </a>
+        <a href="redirect7.html" target="_blank">
+          <div class="daas1">
+            <h5>'C' Language Book</h5>
+          </div>
+        </a>
+      </div>
+      <div class="ib8 ib" id="ib8">
+        <a href="redirect8.html" target="_blank">
+          <img src="imgs/comm2.jpg" alt="">
+        </a>
+        <a href="redirect8.html" target="_blank">
+          <div class="daas1">
+            <h5>E-Commerce Book</h5>
+          </div>
+        </a>
+      </div>
+      <div class="ib9 ib" id="ib9">
+        <a href="redirect9.html" target="_blank">
+          <img src="imgs/ph2i.jpg" alt="">
+        </a>
+        <a href="redirect9.html" target="_blank">
+          <div class="daas1">
+            <h5>History of Philosophy Book</h5>
+          </div>
+        </a>
+      </div>
+      <div class="ib10 ib" id="ib10">
+        <a href="redirect10.html" target="_blank">
+          <img src="imgs/maths2.jpg" alt="">
+        </a>
+        <a href="redirect10.html" target="_blank">
+          <div class="daas1">
+            <h5>Vedic Mathematics Book</h5>
+          </div>
+        </a>
+      </div>
+      <div class="ib11 ib" id="ib11">
+        <a href="redirect11.html" target="_blank">
+          <img src="imgs/maths3.jpg" alt="">
+        </a>
+        <a href="redirect11.html" target="_blank">
+          <div class="daas1">
+            <h5>Maths Concept King Book</h5>
+          </div>
+        </a>
+      </div>
+      <div class="ib12 ib" id="ib12">
+        <a href="redirect12.html" target="_blank">
+          <img src="imgs/ph3.jpg" alt="">
+        </a>
+        <a href="redirect12.html" target="_blank">
+          <div class="daas1">
+            <h5>Western Philosophy Book</h5>
+          </div>
+        </a>
+      </div>
+      <div class="ib13 ib" id="ib13">
+        <a href="redirect13.html" target="_blank">
+          <img src="imgs/html.webp" alt="">
+        </a>
+        <a href="redirect13.html" target="_blank">
+          <div class="daas1">
+            <h5>HTML & CSS Book</h5>
+          </div>
+        </a>
+      </div>
+      <div class="ib14 ib" id="ib14">
+        <a href="redirect14.html" target="_blank">
+          <img src="imgs/comm3.jpg" alt="">
+        </a>
+        <a href="redirect14.html" target="_blank">
+          <div class="daas1">
+            <h5>Commerce & Accountancy Book</h5>
+          </div>
+        </a>
+      </div>
+      <div class="ib15 ib" id="ib15">
+        <a href="redirect15.html" target="_blank">
+          <img src="imgs/sci3.jpg" alt="">
+        </a>
+        <a href="redirect15.html" target="_blank">
+          <div class="daas1">
+            <h5>Science Textbook</h5>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- items end -->
+  </section>
+
+
+  <script>
+    $(document).ready(function () {
+      $("#di0").click(function () {
+        $("#ib1").show()
+        $("#ib2").show()
+        $("#ib3").show()
+        $("#ib4").show()
+        $("#ib5").show()
+        $("#ib6").show()
+        $("#ib7").show()
+        $("#ib8").show()
+        $("#ib9").show()
+        $("#ib10").show()
+        $("#ib11").show()
+        $("#ib12").show()
+        $("#ib13").show()
+        $("#ib14").show()
+        $("#ib15").show()
+        $("#di0").removeClass("it")
+
+        $("#di1").removeClass("rit")
+        $("#di2").removeClass("rit")
+        $("#di3").removeClass("rit")
+        $("#di4").removeClass("rit")
+        $("#di5").removeClass("rit")
+        $("#di0").addClass("rit")
+      })
+      $("#di1").click(function () {
+        $("#ib1").show()
+        $("#ib2").hide()
+        $("#ib3").hide()
+        $("#ib4").hide()
+        $("#ib5").hide()
+        $("#ib6").hide()
+        $("#ib7").show()
+        $("#ib8").hide()
+        $("#ib9").hide()
+        $("#ib10").hide()
+        $("#ib11").hide()
+        $("#ib12").hide()
+        $("#ib13").show()
+        $("#ib14").hide()
+        $("#ib15").hide()
+        // $(".ahide").hide()
+        $("#di1").removeClass("it")
+
+        $("#di0").removeClass("rit")
+        $("#di2").removeClass("rit")
+        $("#di3").removeClass("rit")
+        $("#di4").removeClass("rit")
+        $("#di5").removeClass("rit")
+        $("#di1").addClass("rit")
+      })
+      $("#di2").click(function () {
+        $("#ib1").hide()
+        $("#ib2").show()
+        $("#ib3").hide()
+        $("#ib4").hide()
+        $("#ib5").hide()
+        $("#ib6").hide()
+        $("#ib7").hide()
+        $("#ib8").hide()
+        $("#ib9").show()
+        $("#ib10").hide()
+        $("#ib11").hide()
+        $("#ib12").show()
+        $("#ib13").hide()
+        $("#ib14").hide()
+        $("#ib15").hide()
+        $("#di2").removeClass("it")
+
+        $("#di0").removeClass("rit")
+        $("#di1").removeClass("rit")
+        $("#di3").removeClass("rit")
+        $("#di4").removeClass("rit")
+        $("#di5").removeClass("rit")
+        $("#di2").addClass("rit")
+      })
+      $("#di3").click(function () {
+        $("#ib1").hide()
+        $("#ib2").hide()
+        $("#ib3").show()
+        $("#ib4").hide()
+        $("#ib5").hide()
+        $("#ib6").show()
+        $("#ib7").hide()
+        $("#ib8").hide()
+        $("#ib9").hide()
+        $("#ib10").hide()
+        $("#ib11").hide()
+        $("#ib12").hide()
+        $("#ib13").hide()
+        $("#ib14").hide()
+        $("#ib15").show()
+        $("#di3").removeClass("it")
+
+        $("#di0").removeClass("rit")
+        $("#di2").removeClass("rit")
+        $("#di1").removeClass("rit")
+        $("#di4").removeClass("rit")
+        $("#di5").removeClass("rit")
+        $("#di3").addClass("rit")
+      })
+      $("#di4").click(function () {
+        $("#ib1").hide()
+        $("#ib2").hide()
+        $("#ib3").hide()
+        $("#ib4").show()
+        $("#ib5").hide()
+        $("#ib6").hide()
+        $("#ib7").hide()
+        $("#ib8").hide()
+        $("#ib9").hide()
+        $("#ib10").show()
+        $("#ib11").show()
+        $("#ib12").hide()
+        $("#ib13").hide()
+        $("#ib14").hide()
+        $("#ib15").hide()
+        $("#di4").removeClass("it")
+
+        $("#di0").removeClass("rit")
+        $("#di2").removeClass("rit")
+        $("#di3").removeClass("rit")
+        $("#di1").removeClass("rit")
+        $("#di5").removeClass("rit")
+        $("#di4").addClass("rit")
+      })
+      $("#di5").click(function () {
+        $("#ib1").hide()
+        $("#ib2").hide()
+        $("#ib3").hide()
+        $("#ib4").hide()
+        $("#ib5").show()
+        $("#ib6").hide()
+        $("#ib7").hide()
+        $("#ib8").show()
+        $("#ib9").hide()
+        $("#ib10").hide()
+        $("#ib11").hide()
+        $("#ib12").hide()
+        $("#ib13").hide()
+        $("#ib14").show()
+        $("#ib15").hide()
+        $("#di5").removeClass("it")
+
+        $("#di0").removeClass("rit")
+        $("#di2").removeClass("rit")
+        $("#di3").removeClass("rit")
+        $("#di4").removeClass("rit")
+        $("#di1").removeClass("rit")
+        $("#di5").addClass("rit")
+      })
+    })
+
+    $(document).ready(function () {
+      $(".ai").mouseenter(function () {
+        $(".dh").show()
+      })
+      $("#dh").mouseenter(function () {
+        $(".dh").show()
+      })
+
+      $(".aw").mouseenter(function () {
+        $(".dh").show()
+      })
+      $("#dh").mouseleave(function () {
+        $(".dh").hide()
+      })
+      $(".aw").mouseleave(function () {
+        $(".dh").hide()
+      })
+      $(".ai").mouseenter(function () {
+        $(".tlt").show()
+      })
+      $("#dh").mouseenter(function () {
+        $(".tlt").show()
+      })
+
+      $(".aw").mouseenter(function () {
+        $(".tlt").show()
+      })
+      $(".ai").mouseleave(function () {
+        $(".tlt").hide()
+      })
+      $(".aw").mouseleave(function () {
+        $(".tlt").hide()
+      })
+
+    })
+
+  </script>
+
+  <!-- icons fixed start -->
+  <div
+    style="border-radius: 50%; position: fixed; bottom: 130px; left: 40px; height: 50px; width: 50px; box-shadow: rgb(255, 0, 0) 0px 2px 18px, rgb(255, 208, 0) 0px 2px 12px; overflow: hidden; z-index: 100;" class="fa1">
+    <a href="" target="_blank">
+      <img src="imgs/call1 fix.png" alt="" height="100%" width="100%">
+    </a>
+  </div>
+  <div
+    style="border-radius: 50%; position: fixed; bottom: 50px; left: 40px; height: 50px; width: 50px; box-shadow: rgb(0, 255, 21) 0px 2px 18px, rgb(51, 255, 0) 0px 2px 12px; overflow: hidden; z-index: 100; background-color: white;" class="fa2">
+    <a href="" target="_blank">
+      <img src="imgs/whatsa1_fix-removebg-preview.png" alt="" height="100%" width="100%">
+    </a>
+  </div>
+  <!-- icons fixed end -->
+
+    <!-- footer start -->
+    <section class="footer0">
+      <section class="ssss">
+        <div class="ftgr">
+          <!-- <a href="index.html" target="_blank"> -->
+          <img src="imgs/shivangi 3.png" alt=""
+            style="position: absolute; " class="logf">
+          <!-- </a> -->
+        </div>
+        <div class="ftgr">
+          <ul type="none">
+            <a href="about.html" target="_blank">
+              <h6 style="color: white;">ABOUT US</h6>
+            </a>
+            <a href="about.html" target="_blank" style="color: rgb(148, 148, 148);">
+              <li>Vision</li>
+            </a>
+            <a href="about.html" target="_blank" style="color: rgb(148, 148, 148);">
+              <li>Mission</li>
+            </a>
+            <a href="courses.html" target="_blank" style="color: rgb(148, 148, 148);">
+              <li>Courses</li>
+            </a>
+            <a href="services.html" target="_blank" style="color: rgb(148, 148, 148);">
+              <li>Books</li>
+            </a>
+          </ul>
+        </div>
+        <div class="ftgr">
+          <ul type="none">
+            <a href="terms.html" target="_blank">
+              <h6 style="color: white;">TERMS AND POLICIES</h6>
+            </a>
+            <a href="terms.html" target="_blank" style="color: rgb(148, 148, 148);">
+              <li>Terms and Conditions</li>
+            </a>
+            <a href="terms.html" target="_blank" style="color: rgb(148, 148, 148);">
+              <li>Privacy Policy</li>
+            </a>
+            <a href="terms.html" target="_blank" style="color: rgb(148, 148, 148);">
+              <li>Cancellation Policy</li>
+            </a>
+            <a href="terms.html" target="_blank" style="color: rgb(148, 148, 148);">
+              <li>Refund Policy</li>
+            </a>
+          </ul>
+        </div>
+        <div class="ftgr">
+          <ul type="none">
+            <a href="contact.html" target="_blank">
+              <h6 style="color: white; margin-left: 0.8vw;">CONTACT US</h6>
+            </a>
+            <a href="contact.html" target="_blank" style="color: rgb(148, 148, 148);">
+              <li><img src="imgs/phn_icon-removebg-preview.png" alt="" height="27px" width="40px"><span>+91
+                  8447632818</span></li>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJZdBMlXKPDSMsgPKGSFptRZmDvsfhwqfZXcwKMXhzdrlgSvhNtmclsVPcTVDbmncdFZXmg"
+              target="_blank" style="color: rgb(148, 148, 148);">
+              <li><img src="imgs/emailicon-removebg-preview.png" alt="" height="40px"
+                  width="42px"><span>shivangisinghal2019@gmail.com</span></li>
+            </a>
+            <a href="https://www.google.com/maps/place/Raispur,+Ghaziabad,+Uttar+Pradesh+201002/@28.6762848,77.4372499,13z/data=!3m1!4b1!4m6!3m5!1s0x390cf2238387a479:0x7e5c0b276753b269!8m2!3d28.6805926!4d77.4587239!16s%2Fm%2F0wzj171?entry=ttu"
+              target="_blank" style="color: rgb(148, 148, 148);">
+              <li><img src="imgs/locate-removebg-preview.png" alt="" style="filter: invert(100%);" height="38px"
+                  width="39px"><span>RDC, Rajnagar, Ghaziabad (U.P.)</span></li>
+            </a>
+            <!-- <a href="" target="_blank" style="color: rgb(148, 148, 148);">
+                      <li>Help</li>
+                  </a> -->
+          </ul>
+        </div>
+      </section>
+      <hr>
+      <div style="text-align: center; font-weight: 500;"><span>Copyright 2023</span> Design and developed by <span
+          style="color: rgb(92, 206, 194);">SHIVANGI</span></div>
+    </section>
+    <!-- footer end -->
+
+  <script>
+      $(document).ready(function () {
+          $(".ai").mouseenter(function () {
+              $(".dh").show()
+          })
+          $("#dh").mouseenter(function () {
+              $(".dh").show()
+          })
+
+          $(".aw").mouseenter(function () {
+              $(".dh").show()
+          })
+          $("#dh").mouseleave(function () {
+              $(".dh").hide()
+          })
+          $(".aw").mouseleave(function () {
+              $(".dh").hide()
+          })
+          $(".ai").mouseenter(function () {
+              $(".tlt").show()
+          })
+          $("#dh").mouseenter(function () {
+              $(".tlt").show()
+          })
+
+          $(".aw").mouseenter(function () {
+              $(".tlt").show()
+          })
+          $(".ai").mouseleave(function () {
+              $(".tlt").hide()
+          })
+          $(".aw").mouseleave(function () {
+              $(".tlt").hide()
+          })
+
+          $(".sin").click(function () {
+              $(".sig").toggle()
+              $(".nin").toggle()
+          })
+          $(".sig").mouseleave(function () {
+              $(".sig").hide()
+              $(".nin").hide()
+          })
+
+      })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

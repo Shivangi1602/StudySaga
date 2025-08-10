@@ -1,0 +1,55 @@
+.sr1{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    padding: 4vh 4vw;
+}
+.smig{
+    height: 100px;
+    width: 85px;
+    margin: 20px;
+    background-size: 100% 100%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.smig1{
+    background-image: url(imgs/c\ book.jpg);
+}
+.smig2{
+    background-image: url(imgs/py2.png);
+}
+.smig3{
+    background-image: url(imgs/py3.png);
+}
+.smig4{
+    background-image: url(imgs/py4.png);
+}
+.lig{
+    background-image: url(imgs/c\ book.jpg);
+}
+#limg{
+    height: 440px;
+    width: 80%;
+    background-size: 100% 100%;
+    margin-top: 32px;
+    border: 2px solid lightgrey;
+}
+.desc{
+    margin: 5vh 4vw;
+    text-align: justify;
+}
+.prigr{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.dpri{
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 1vh 1vw;
+    border-radius: 10px;
+}
+.dpri:hover{
+    background-color: rgb(255, 250, 227);
+    border: 3px solid orangered;
+    box-shadow: 2px 2px 4px orange;
+}
